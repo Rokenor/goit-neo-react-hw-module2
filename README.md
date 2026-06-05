@@ -1,16 +1,32 @@
-# React + Vite
+# React HW Module 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Віджет збору відгуків про якість обслуговування на React + Vite.
 
-Currently, two official plugins are available:
+## Можливості
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Кнопки оцінки: Good / Neutral / Bad
+- Підрахунок загальної кількості та відсотка позитивних відгуків
+- Скидання результатів
+- Збереження стану в `localStorage`
+- Повідомлення, доки немає жодного відгуку
 
-## React Compiler
+## Стек
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React 19, Vite, ESLint, Prettier
 
-## Expanding the ESLint configuration
+## Запуск
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Скрипти
+
+| Команда           | Опис                     |
+| ----------------- | ------------------------ |
+| `npm run dev`     | Запуск дев-сервера       |
+| `npm run build`   | Збірка продакшн-версії   |
+| `npm run preview` | Перегляд зібраної версії |
+| `npm run lint`    | Перевірка ESLint         |
+| `npm run format`  | Форматування Prettier    |
